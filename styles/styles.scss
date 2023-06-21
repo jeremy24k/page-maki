@@ -118,7 +118,7 @@
         }
 
         //-------------------animation-navbar-----------------
-        nav.active-bottom {
+        .active-bottom {
             position: fixed;
             transform: translateY(-50px);
             width: 100%;
@@ -252,8 +252,8 @@
                         align-items: center;
                         text-align: center;
                         margin-bottom: 40px;
-                        position: relative;
-                        z-index: -1;
+                        // position: relative;
+                        z-index: 0;
 
                         p {
                             font-family: 'Open Sans', sans-serif;
@@ -263,8 +263,9 @@
                         }
 
                         .container-input-hero {
-                            position: relative;
-
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
                             .input-hero {
                                 background: transparent;
                                 color: #fff;
@@ -273,13 +274,11 @@
                                 border: solid 1px rgba(255, 255, 255, 0.285);
                                 border-radius: 50px;
                                 outline: none;
-                                padding: 0 120px 0 20px;
+                                padding: 0 20px;
+                                text-align: center;
                             }
         
                             .buttom-form-hero {
-                                position: absolute;
-                                top: 0;
-                                right: 0;
                                 font-weight: 400;
                                 font-family: "Open Sans", sans-serif;
                                 background-color: rgb(248, 51, 51);
@@ -291,6 +290,9 @@
                                 transition: all 0.2s;
                                 border: none;
                                 cursor: pointer;
+                                max-width: 130px;
+                                width: 100%;
+                                margin-top: 20px;
 
                                 &:hover {
                                     box-shadow: 0 0 25px -3px rgb(248, 51, 51);
