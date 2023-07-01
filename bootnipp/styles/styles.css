@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-bootnipp {
+  display: flex;
+  justify-content: center;
+}
+.section-bootnipp .container-bootnipp {
+  max-width: 1440px;
+  display: flex;
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  padding: 3%;
+  margin-top: 3%;
+}
+.section-bootnipp .container-bootnipp .container-login {
+  max-width: 25%;
+  padding-right: 15px;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-bootnipp .container-bootnipp .container-login .title-login {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+  line-height: 1.2;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+.section-bootnipp .container-bootnipp .container-login .text-login {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #fff;
+  padding: 12%;
+  margin-top: -9%;
+  font-weight: 100;
+  line-height: 1.5;
+}
+.section-bootnipp .container-bootnipp .container-login .buttom-login {
+  border-radius: 1.5rem;
+  padding: 2%;
+  width: 60%;
+  background: #f8f9fa;
+  margin-top: 40%;
+  margin-bottom: 3%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.section-bootnipp .container-bootnipp .container-login .buttom-login:hover {
+  background: #c0c1c1;
+}
+.section-bootnipp .container-bootnipp .container-login .buttom-login p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #383d41;
+}
+.section-bootnipp .container-bootnipp .container-form {
+  max-width: 75%;
+  width: 100%;
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  padding: 0 15px;
+}
+.section-bootnipp .container-bootnipp .container-form .container-switch {
+  max-width: 220px;
+  cursor: pointer;
+  width: 100%;
+  height: 34px;
+  margin-top: 3%;
+  margin-left: auto;
+  background: #0062cc;
+  border-radius: 1.5rem;
+  display: flex;
+}
+.section-bootnipp .container-bootnipp .container-form .container-switch div.switch-1 a {
+  color: #0062cc;
+}
+.section-bootnipp .container-bootnipp .container-form .container-switch div.switch-2 {
+  background-color: transparent;
+}
+.section-bootnipp .container-bootnipp .container-form .container-switch div.switch-2 a {
+  color: #fff;
+}
+.section-bootnipp .container-bootnipp .container-form .container-switch .buttom-switch {
+  margin: 1%;
+  width: 50%;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-bootnipp .container-bootnipp .container-form .container-switch .buttom-switch a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #0062cc;
+  transition: all 0.5;
+}
+.section-bootnipp .container-bootnipp .container-form .container-switch .buttom-switch:hover a {
+  transform: translateY(-1px);
+}
+.section-bootnipp .container-bootnipp .container-form div.active div.switch-1 {
+  background-color: transparent;
+}
+.section-bootnipp .container-bootnipp .container-form div.active div.switch-1 a {
+  color: #fff;
+}
+.section-bootnipp .container-bootnipp .container-form div.active div.switch-2 {
+  background-color: #fff;
+}
+.section-bootnipp .container-bootnipp .container-form div.active div.switch-2 a {
+  color: #0062cc;
+}
+.section-bootnipp .container-bootnipp .container-form .form .title-form {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #495057;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.section-bootnipp .container-bootnipp .container-form .form .title-2 {
+  display: none;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form {
+  padding: 4% 10% 10%;
+  display: flex;
+  transition: opacity 0.15s linear;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group {
+  padding: 0 15px;
+  max-width: 50%;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group .input-form {
+  width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 16px;
+  min-height: 38px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group .input-form:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group .container-radio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group .container-radio .container-gander .radio-form {
+  margin-left: 5px;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group .container-radio .container-gander .text-gender {
+  font-family: "Roboto", sans-serif;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group .btn-register {
+  max-width: 150px;
+  width: 100%;
+  min-height: 35px;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-group .btn-register:hover {
+  background: #5592d3;
+}
+.section-bootnipp .container-bootnipp .container-form .form .into-form .form-left {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+}
+.section-bootnipp .container-bootnipp .container-form .form .change {
+  display: none;
+}
+.section-bootnipp .container-bootnipp .container-form .change-form .default {
+  display: none;
+}
+.section-bootnipp .container-bootnipp .container-form .change-form .change {
+  display: flex;
+}
+.section-bootnipp .container-bootnipp .container-form .change-form .title-1 {
+  display: none;
+}
+.section-bootnipp .container-bootnipp .container-form .change-form .title-2 {
+  display: block;
+}
+@media (max-width: 768px) {
+  .section-bootnipp .container-bootnipp {
+    flex-direction: column;
+  }
+  .section-bootnipp .container-bootnipp .container-login {
+    max-width: 100%;
+  }
+  .section-bootnipp .container-bootnipp .container-login .text-login {
+    max-width: 520px;
+  }
+  .section-bootnipp .container-bootnipp .container-login .buttom-login {
+    margin: 10px 0 30px 0;
+    width: 40%;
+  }
+  .section-bootnipp .container-bootnipp .container-form {
+    max-width: 100%;
+  }
+  .section-bootnipp .container-bootnipp .container-form .form .into-form {
+    flex-direction: column;
+  }
+  .section-bootnipp .container-bootnipp .container-form .form .into-form .form-group {
+    max-width: 100%;
+  }
+}
+@media (max-width: 380px) {
+  .section-bootnipp .container-bootnipp .container-form .container-switch {
+    margin-top: 20px;
+  }
+  .section-bootnipp .container-bootnipp .container-form .form .title-form {
+    font-size: 22px;
+    margin: 30px 0;
+  }
+  .section-bootnipp .container-bootnipp .container-form .form .into-form {
+    padding: 0 20px 20px 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */
