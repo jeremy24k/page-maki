@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-us .container-contact-us {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+.contact-us .container-contact-us .title-contact {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contact-us .container-contact-us .text-contact {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.contact-us .container-contact-us .container-cards {
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+.contact-us .container-contact-us .container-cards .card-contact {
+  max-width: 33.3333333333%;
+  margin: 0 30px;
+}
+.contact-us .container-contact-us .container-cards .card-contact .line-top {
+  min-height: 10px;
+  border-radius: 30px 30px 0 0;
+}
+.contact-us .container-contact-us .container-cards .card-contact .line-1 {
+  background-color: #44abcb;
+}
+.contact-us .container-contact-us .container-cards .card-contact .line-2 {
+  background-color: #57c094;
+}
+.contact-us .container-contact-us .container-cards .card-contact .line-3 {
+  background-color: #517bf1;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 60px;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .title-card {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .text-card {
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  font-size: 16px;
+  color: #949494;
+  min-height: 120px;
+  margin-bottom: 55px;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-card {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  min-height: 40px;
+  border-radius: 30px;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-card p {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-submit {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #57c094;
+  font-size: 14px;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-1 {
+  background-color: transparent;
+  border: 2px solid #44abcb;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-1 p {
+  color: #44abcb;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-2 {
+  background-color: #57c094;
+  margin-bottom: 20px;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-2 p {
+  color: white;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-3 {
+  background-color: transparent;
+  border: 2px solid #517bf1;
+}
+.contact-us .container-contact-us .container-cards .card-contact .into-card .buttom-3 p {
+  color: #517bf1;
+}
+.contact-us .container-contact-us .container-cards .contact-2 {
+  max-width: 30%;
+  width: 100%;
+}
+.contact-us .container-contact-us .container-cards .contact-2 .card-2 {
+  height: 180%;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
